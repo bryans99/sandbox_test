@@ -1,0 +1,14 @@
+{
+  "name": "iframetest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8082 -d false -S -C cert.pem -c-1",
+    "start-http": "http-server"
+  },
+  "author": "Bryn Ryans <bryn.ryans@looker.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
